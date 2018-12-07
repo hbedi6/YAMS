@@ -7,6 +7,9 @@ package com.example.makingit.softchatapp;
         name - how the user is seen in chat
         ip - what ip address messages will be sent to
         publicKey - the users public key used to encrypt messages
+
+    methods
+        public constructors
  */
 
 import android.support.v7.app.AppCompatActivity;
