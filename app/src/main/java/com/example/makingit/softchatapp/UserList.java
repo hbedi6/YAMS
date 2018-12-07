@@ -12,11 +12,8 @@ package com.example.makingit.softchatapp;
         existing table constructor - builds the table if other users are already around with an existing userlist
         addUser() - add user profiles to the table returns boolean for status
         addFromList() - adds users from an existing list
-
-        //TODO stuff below
         searchUser() - looks through the userList to find a specific user and returns the index for that user as an int, if no user is found returns -1
         removeUser() - removes user from the list if they leave the chat returns boolean for status
-        applyNewKey() - changes a specific users public key
  */
 
 import java.util.ArrayList;
@@ -54,6 +51,16 @@ public class UserList {
             }
         }
         return -1;
-    }
+    }//end searchUser()
+
+    public boolean removeUser(int index){
+        try{
+            userList.remove(index);
+            return true;
+        }catch(Exception e){
+            return false;
+        }
+    }//end removeUser
+
 
 }
