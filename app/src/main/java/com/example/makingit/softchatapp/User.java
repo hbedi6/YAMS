@@ -10,6 +10,9 @@ package com.example.makingit.softchatapp;
 
     methods
         public constructors
+        getUserName() - returns users name as a string
+        getIP() - returns the users IP as a string
+        getPublicUserProfile() - returns the user profile as a string array to be sent to other users with the app running
  */
 
 import android.support.v7.app.AppCompatActivity;
@@ -36,12 +39,13 @@ public class User extends AppCompatActivity{
     public String getUserName(){
         return this.name;
     }
+
     public String getIP(){
         return this.ip;
     }
+
     public String[] getPublicUserProfile(){
-        String[] publicProfile = {this.name, this.ip, this.publicKey};
-        return publicProfile;
+        return new String[] {this.name, this.ip, this.publicKey};
     }
 
 }
