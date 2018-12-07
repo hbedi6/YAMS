@@ -15,10 +15,8 @@ package com.example.makingit.softchatapp;
         getPublicUserProfile() - returns the user profile as a string array to be sent to other users with the app running
  */
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
-public class User extends AppCompatActivity{
+public class User{
 
     private String name, ip;//self explanatory
     private String publicKey;//the users public key to be sent out to other users
