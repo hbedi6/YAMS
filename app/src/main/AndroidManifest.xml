@@ -20,6 +20,8 @@
         <activity android:name=".SettingActivity2" />
         <activity android:name=".TextActivity" />
         <activity android:name=".UserList"></activity>
+        <activity android:name=".User"></activity>
+
     </application>
 
 </manifest>
