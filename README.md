@@ -10,6 +10,7 @@ TODO:<br />
   p2p messaging<br />
   splash screen <br />
   settings<br />
+  Finish UI<br />
   
 Future:<br />
   PGP<br />
