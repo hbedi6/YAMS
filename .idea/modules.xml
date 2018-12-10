@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SoftChatApp.iml" filepath="$PROJECT_DIR$/SoftChatApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YAMS.iml" filepath="$PROJECT_DIR$/YAMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
