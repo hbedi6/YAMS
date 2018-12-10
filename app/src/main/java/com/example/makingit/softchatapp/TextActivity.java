@@ -15,4 +15,5 @@ public class TextActivity extends AppCompatActivity {
         setContentView(R.layout.activity_text);
     }
 
+
 }

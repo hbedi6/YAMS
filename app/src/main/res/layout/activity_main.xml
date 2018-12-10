@@ -130,12 +130,14 @@
         app:layout_constraintVertical_bias="0.498" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/join_button"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="112dp"
-        android:text="Join"
+        android:text="@string/join"
+        android:onClick="joinChat"
         android:textColor="#BB86FC"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
