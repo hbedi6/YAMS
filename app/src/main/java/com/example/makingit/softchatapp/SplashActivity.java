@@ -10,6 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
+
+    /* Splash screen intent created
+    this intent will display apps logo while the app is loading
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

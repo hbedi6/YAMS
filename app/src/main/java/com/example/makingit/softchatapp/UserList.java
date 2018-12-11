@@ -23,6 +23,7 @@ import java.util.ArrayList;
 
 public class UserList extends AppCompatActivity {
 
+    //onzCreate links userlist class to activity_user_list
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
